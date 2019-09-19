@@ -1,4 +1,3 @@
-POST /markdown
 #Ploidy Boi's Assignment 1
 
 ##Intro
