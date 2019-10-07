@@ -9,6 +9,11 @@ The BWA-MEM algorithm is able to align sequences ranging from 70bp-1Mbp, which i
 
 Supernova requires formatted fastq files, such as those provided by the bcl2fastq software provided by Illumina. In an attempt to reproduce this format forward and reverse reads were partitioned into separate files and renamed following the appropriate conventions (0SNP_1.dwgsim.0.12_fastq vs 0SNP_S1_L001_R1_001.fastq). However, when Supernova was executed on these files it returned an error reporting an unacceptable fraction of barcoded reads (0.98% vs. the 80% acceptable minimum). 
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 ## Results & Discussion
 #### Table 1. BWA-MEM alignment of single-nucleotide polymorphism linked-reads.
 Sample|Mapped |Reads Mapped|Mapped to a dif. Chr.
