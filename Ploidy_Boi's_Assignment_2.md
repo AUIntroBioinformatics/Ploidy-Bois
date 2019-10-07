@@ -11,6 +11,7 @@ Supernova requires formatted fastq files, such as those provided by the bcl2fast
 
 ## Results & Discussion
 #### Table 1. BWA-MEM alignment of single-nucleotide polymorphism linked-reads.
+
 Sample | Mapped | Reads Mapped | Mapped to a dif. Chr.
 --- | --- | ---
 0 SNP rp 1 | 100% | 18000001 | 12
@@ -24,11 +25,6 @@ Sample | Mapped | Reads Mapped | Mapped to a dif. Chr.
 50k SNP rp2 | 100% | 18000000 | 20
 50k SNP rp3 | 100% | 18000001 | 12
 
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
 Using BWA-MEM saw a mapping rate of 100% throughout all samples and replicates. Interestingly, the number of reads that matched to a different chromosome did not increase corresponding to an increase in SNPs. 
 
 The surprisingly low percentage of barcoded reads indicates an issue with the simulated data. Upon further examination it was revealed the simulation software uses a now deprecated list of barcodes from 2017 that are no longer recognized by the current downstream software provided by 10X Genomics. A list of current acceptable barcodes was found in the source code of the Cell Ranger pipeline and provided to the simulation software (via the -b option flag). However, when the simulation was run with this option it took many times longer to run than originally, and was cancelled after 24hrs, suggesting the custom barcode option of the simulation software may not be functional. We believe the next step should be to replace the default barcodes in the simulation software source code with the updated barcodes and run as normal. ‘
