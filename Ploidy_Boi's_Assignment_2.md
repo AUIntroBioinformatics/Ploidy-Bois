@@ -13,7 +13,7 @@ Supernova requires formatted fastq files, such as those provided by the bcl2fast
 #### Table 1. BWA-MEM alignment of single-nucleotide polymorphism linked-reads.
 
 Sample | Mapped | Reads Mapped | Mapped to a dif. Chr.
---- | --- | ---
+--- | --- | --- | ---
 0 SNP rp 1 | 100% | 18000001 | 12
 0 SNP rp 2 | 100% | 18000000 | 26
 0 SNP rp 3 | 100% | 18000001 | 22
