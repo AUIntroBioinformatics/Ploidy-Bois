@@ -6,9 +6,9 @@ Quality control is an important first step in any bioinformatic pipeline to iden
 ## Methods
 ### Simulations
 Before applying quality control,  the whole genome sequencing is simulated by 10X Genomics Linked Read technology. In this project, the simulated read were estimated for compatibility using package “longRanger” and “supernova”. The default parameters are set as the table below containing reference genome and variants, illumina reads characteristics and linkage read parameters. Each member of the group selects a variant to resimulate the sequencing.(Luo n.d.)
-```./simulateLinkedReads.pl -r/-g <reference/haplotypes> -p <output prefix>```
+```./simulateLinkedReads.pl -r/-g <reference/haplotypes> -p <output prefix>```   
 FastQC is an application which reads raw sequence data from high throughput sequencers and runs a set of quality checks to produce a report which allows you to quickly assess the overall quality of your run, and to spot any potential problems or biases.
-```./fastqc <simulated fastqc reads>```
+```./fastqc <simulated fastqc reads>```   
 
 #### Tetraploidy (Fig 1A)
 The variable we are interested in testing for our tetraploid genomes is coverage. One genome was simulated under a coverage similar to the rest of the samples (~24X after rerunning, see Discussion). Three additional genomes were simulated under 12X, 6X, and 3X, respectively. 
@@ -17,7 +17,7 @@ The variable we are interested in testing for our tetraploid genomes is coverage
 
 #### Duplications and Inversions (Fig 1C)
 
-##### Figure 1. Experimental Schema
+![Figure 1. Experimental Schema](figures/step1/Fig1.png)
 
 ## Results
 1,800,000,000 sequences were reported for each of our simulated genomes, with a sequence length of 135-151. Using the reference genome size estimate of 100,286,401 provides an estimate of 2,423X-2,710X coverage. No sequences were filtered by FastQC. Our simulated genomes passed seven quality checks, raised warnings for three, and failed one. Warnings were raised for the per base sequence content test, sequence length distribution test, and Kmer content test. The sequence duplication level test was failed. 
