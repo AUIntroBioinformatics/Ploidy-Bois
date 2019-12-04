@@ -1,4 +1,4 @@
-# Ploidy Boi's Assignment 4
+# Ploidy Boi's Step 4
 
 Kyle David, Sarah Martin, and Yan Yu
 
