@@ -12,17 +12,17 @@ Sequencing an autopolyploid genome presents several interesting challenges. Fore
 
 ## Methods
 
-### ![Step 1 - simulation and quality assessment](Step1.md)
+### [Step 1 - simulation and quality assessment](Step1.md)
 
-### ![Step 2 - assembly & alignment](Step2.md)
+### [Step 2 - assembly & alignment](Step2.md)
 
 ### Step 3 - post alignment processing 
 
-### ![Step 4 - variant discovery](Step4.md)
+### [Step 4 - variant discovery](Step4.md)
 
-### ![Step 5 - synthesis](Step5.md)
+### [Step 5 - synthesis](Step5.md)
 
 #### Contributions
-Tetraploidy - KT David
-SNPs - SE Martin
-Duplication and Inversion - Y Yu
+Tetraploidy - KT David  
+SNPs - SE Martin  
+Duplication and Inversion - Y Yu  
