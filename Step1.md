@@ -5,17 +5,19 @@ Quality control is an important first step in any bioinformatic pipeline to iden
 
 ## Methods
 ### Simulations
-Before applying quality control,  the whole genome sequencing is simulated by 10X Genomics Linked Read technology. In this project, the simulated read were estimated for compatibility using package “longRanger” and “supernova”. The default parameters are set as the table below containing reference genome and variants, illumina reads characteristics and linkage read parameters. Each member of the group selects a variant to resimulate the sequencing.(Luo n.d.)
+Before applying quality control,  the whole genome sequencing is simulated by 10X Genomics Linked Read technology. In this project, the simulated read were estimated for compatibility using package “longRanger” and “supernova”. The default parameters are set as the table below containing reference genome and variants, illumina reads characteristics and linkage read parameters. Each member of the group selects a variant to resimulate the sequencing.(Luo n.d.)   
 ```./simulateLinkedReads.pl -r/-g <reference/haplotypes> -p <output prefix>```   
-FastQC is an application which reads raw sequence data from high throughput sequencers and runs a set of quality checks to produce a report which allows you to quickly assess the overall quality of your run, and to spot any potential problems or biases.
+FastQC is an application which reads raw sequence data from high throughput sequencers and runs a set of quality checks to produce a report which allows you to quickly assess the overall quality of your run, and to spot any potential problems or biases.   
 ```./fastqc <simulated fastqc reads>```   
 
 #### Tetraploidy (Fig 1A)
 The variable we are interested in testing for our tetraploid genomes is coverage. One genome was simulated under a coverage similar to the rest of the samples (~24X after rerunning, see Discussion). Three additional genomes were simulated under 12X, 6X, and 3X, respectively. 
 
 #### SNPs (Fig 1B)
+[Sarah]
 
 #### Duplications and Inversions (Fig 1C)
+[Yan]
 
 ![Figure 1. Experimental Schema](figures/step1/Fig1.png)
 
