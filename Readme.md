@@ -16,7 +16,7 @@ Sequencing an autopolyploid genome presents several interesting challenges. Fore
 
 ### [Step 2 - assembly & alignment](Step2.md)
 
-### Step 3 - post alignment processing 
+### [Step 3 - post alignment processing](Step3.md)
 
 ### [Step 4 - variant discovery](Step4.md)
 
