@@ -7,6 +7,7 @@
 Sequencing an autopolyploid genome presents several interesting challenges. Foremost, sequencing and assembly strategies must be able to identify haplotypes between two virtually identical copies of each chromosome in order to assemble a complete genome. To see whether or not linked read sequencing can help address this problem we have simulated a tetraploid genome of C. elegans under various coverage levels (3X, 6X, 12X, 24X) to see at what depth (if any) differences between homologous chromosomes become apparent enough to genotype.
 
 ### Point Mutations (SNPs)
+Simulated genome softwares are becoming more popular with the ease and availability of bioinformatic questions contrasted to the difficulty of wet lab experimentation for specific questions. For example, the following project assesses GATK's ability and LRSIM genome simulation software to 1) generate an increasing amount of SNPs in a sample and 2) GATK's ability to process all SNPs in a genome. The generated genomes with 0 SNPs, 1 SNP per 50,000 bases, 1 per 10,000 bases, and 1 per 100 bases were generated in about a day, however, real data would be almost impossible to control in a laboratory environment and would be extremely labor intensive. 
 
 ### Duplications & Inversions
 
