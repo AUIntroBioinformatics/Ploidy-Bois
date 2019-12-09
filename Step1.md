@@ -7,6 +7,7 @@ Quality control is an important first step in any bioinformatic pipeline to iden
 The variable we are interested in testing for our tetraploid genomes is coverage. One genome was simulated under a coverage similar to the rest of the samples (~24X after rerunning, see Simulations). Three additional genomes were simulated under 12X, 6X, and 3X, respectively. 
 
 #### SNPs (Fig 1B)
+The variable tested for SNP variation in C. elegans simulated genome. Three genomes were simulated with 0 SNPs, three with 1 SNP per 50,000 bases, three with 1 SNP per 10,000 bases, and three with 1 SNP per 100 bases.  
 
 #### Duplications and Inversions (Fig 1C)
 
