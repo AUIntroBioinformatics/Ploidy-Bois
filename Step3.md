@@ -13,7 +13,7 @@ Post-alignment files were converted to .bam files, and underwent read group supp
 ### Duplications and Inversion 
 
 ## Results & Discussion
-Despite the simulator including SNPs, there does not appear to result in any SNPs that GATK can identify. All samples (0, 100, 10k, and 50k) did not find any variants (figure 1.) Through imaging through IGV, it is very clear that there are no variants due to their helpful and blatant observation. 
+Variants from SNP genome simulations were particularly difficult to discover, it doesn't seem like the simulation software and GATK are formatted to work together. Further analysis required. 
 
 The output from Supernova, while absent of error, indicates that simulations were performed under suboptimal conditions. None of the simulations recovered the expected genome size and all had lower coverage outside the 38x-56x range preferred by Supernova (Table X). These initial results indicate these datasets are not complete and not likely to recover good results with GATK. We are currently in the process of running more simulations with increasingly higher coverage parameters that will hopefully be more appropriate for downstream analysis.
 
