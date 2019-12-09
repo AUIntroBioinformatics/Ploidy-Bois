@@ -13,7 +13,7 @@ The variable we are interested in testing for our tetraploid genomes is coverage
 [Yan]
 
 ![Figure 1](figures/step1/Fig1.png)
-###Figure 1. Experimental Schema
+### Figure 1. Experimental Schema
 
 ## Simulations
 Before applying quality control,  the whole genome sequencing is simulated by 10X Genomics Linked Read technology. In this project, the simulated read were estimated for compatibility using package “longRanger” and “supernova”. The default parameters are set as the table below containing reference genome and variants, illumina reads characteristics and linkage read parameters. Each member of the group selects a variant to resimulate the sequencing.(Luo n.d.)   

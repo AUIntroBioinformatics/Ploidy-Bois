@@ -1,8 +1,7 @@
 #!/bin/bash
 
+#load modules
 module load fastqc
 
+#run fastqc on raw simulated fastq reads
 fastqc 0.2X/0.2X_reads/config1_concat.fastq
-fastqc 0.4X/0.4X_reads/config1_concat.fastq
-fastqc 0.8X/0.8X_reads/config1_concat.fastq
-fastqc 1.6X/1.6X_reads/config1_concat.fastq
