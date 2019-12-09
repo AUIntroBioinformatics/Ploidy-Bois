@@ -22,14 +22,25 @@ avg. record length | 413.65 | 756.16| 2515.27 | 2671.34
 N50 | 530 | 1802 | 22489 | 39973
 
 ### Alignment
+<<<<<<< HEAD
 Reads produced from the raw method were also mapped back to the reference they were originally simulated from (Fig. 2)     
 ![Figure 2](figures/step5/Fig2.png)   
 #### Figure 2. coverage levels across all chromosomes in the phased tetraploid reference genome, colored by initial coverage levels they were simulated at.       
 Encouragingly, coverage was present across all chromosomes. There was initially a concern that reads would only align to one genome copy or genotype but this does not appear to be the case. However, while reads are spread evenly across the four sets of chromosomes the overall coverage is quite bad (1-2X). While coverage for a phased genome likely does not require the same standards as diploid alignments (no need to distinguish between alleles), this quality of alignment is probably not up to scientific standards. The low coverage may be the result of issues with the Supernova de novo assembly. Supernova estimates the genome size and uses this value to calculate coverage, which must lie between an acceptable range of 38x-56x. However, Supernova the genome size estimates for our simulated tetraploid genomes were consistently low (about half, indicating that the method can not distinguish polyploid genomes). Consequently coverage was overestimated for the diploid genome, translating to less overall representation across the "real" tetraploid genome. We also notice that we reach a point of diminishing returns on our simulated coverage levels. 24X and 12X alignments were largely similar compared to 6X and 3X (Fig. 2). This is also consistent with Supernova methodology, which does not recommend excessive coverage (keeping in mind that Supernova treats the 12X and 24X reads simulated from the tetraploid genome as 24X and 48X coverage for its diploid estimation).
 In conclusion Supernova's method of estimating genome size (and coverage) for de novo assemblies makes it inappropriate for polyploid genome assemblies. For future studies I plan to instead use the reference aligner Longranger which has in-house phasing capabilities, using a pseudoreference of my two parent strains "cat"ed on top of each other. It would also be beneficial if the software could include an option for the user to provide a genome size estimate manually.
+=======
+
+>>>>>>> 49a6010ba4924402de7c5955ada24e03fe6c7ff9
 
 ## SNPs
-[Sarah?]
+Further analysis of SNP variants generated from genome simulation software uncovers an astounding amount of variation between number of SNPs recovered from filtered .vcf files generated from GATK. Of the number of variants generated (0, 1/50,000, 1/10,000, and 1/100) the most consistency of variants were unserprisingly only present in the replicates of 0 SNPs generated. The 0 SNP samples were generated from the reference sequence (here we used WBcel235) directly with no input SNPs, so any variants included would be concerning. 
+
+Coverage| 0  | 1/50,000  | 1/10,000  | 1,100 
+--- | --- | --- | --- | ---
+Replicate 1 | 0 | 2030 | 92830 | 999304  
+Replicate 2 | 0 | 1503| 11029 | 1039403
+Replicate 3 | 0 | 1750 | 10939 | 982940
+
 
 ## Duplication & Inversions
 [Yan?]
