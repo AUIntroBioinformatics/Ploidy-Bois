@@ -11,7 +11,6 @@ Due to considerable issues with the simulated tetraploid genomes for de novo sim
 ### SNPs 
 Post-alignment files were converted to .bam files, and underwent read group supplementation. Apparently, GATK refuses to tell the user that files will not run without included read groups and the simulated software apparently does not include these read groups. Therefore, random read groups were included to the SNP genomes using AddorReplaceReadGroups.jar in the Picard module. Then, GATK was used to build bam indexes, provide joint genotyping, extracted SNPs, and filtered through variant selection. 
 ### Duplications and Inversion 
-[Yan]
 
 ## Results & Discussion
 Despite the simulator including SNPs, there does not appear to result in any SNPs that GATK can identify. All samples (0, 100, 10k, and 50k) did not find any variants (figure 1.) Through imaging through IGV, it is very clear that there are no variants due to their helpful and blatant observation. 

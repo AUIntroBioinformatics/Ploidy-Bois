@@ -7,10 +7,8 @@ Quality control is an important first step in any bioinformatic pipeline to iden
 The variable we are interested in testing for our tetraploid genomes is coverage. One genome was simulated under a coverage similar to the rest of the samples (~24X after rerunning, see Simulations). Three additional genomes were simulated under 12X, 6X, and 3X, respectively. 
 
 #### SNPs (Fig 1B)
-[Sarah]
 
 #### Duplications and Inversions (Fig 1C)
-[Yan]
 
 ![Figure 1](figures/step1/Fig1.png)
 ### Figure 1. Experimental Schema
