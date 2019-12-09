@@ -34,11 +34,10 @@ In conclusion Supernova's method of estimating genome size (and coverage) for de
 ## SNPs
 Further analysis of SNP variants generated from genome simulation software uncovers an astounding amount of variation between number of SNPs recovered from filtered .vcf files generated from GATK. Of the number of variants generated (0, 1/50,000, 1/10,000, and 1/100) the most consistency of variants were unserprisingly only present in the replicates of 0 SNPs generated. The 0 SNP samples were generated from the reference sequence (here we used WBcel235) directly with no input SNPs, so any variants included would be concerning. 
 
-Coverage| 0  | 1/50,000  | 1/10,000  | 1,100 
---- | --- | --- | --- | ---
-Replicate 1 | 0 | 2030 | 92830 | 999304  
+Coverage| 0  | 1/50,000  | 1/10,000  | 1/100 
+--- | --- | --- | --- | --- | ---
+Replicate 1 | 0 | 2030 | 92830 | 999304   
 Replicate 2 | 0 | 1503| 11029 | 1039403
 Replicate 3 | 0 | 1750 | 10939 | 982940
-
-
+Expected | 0 | 2005 | 10,028 | 1,002,864
 ## Duplication & Inversions
