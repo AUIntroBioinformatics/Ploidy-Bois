@@ -39,5 +39,6 @@ Coverage| 0  | 1/50,000  | 1/10,000  | 1/100
 Replicate 1 | 0 | 2030 | 92830 | 999304   
 Replicate 2 | 0 | 1503| 11029 | 1039403
 Replicate 3 | 0 | 1750 | 10939 | 982940
-Expected | 0 | 2005 | 10,028 | 1,002,864
+Expected | 0 | 2005 | 10028 | 1002864
+
 ## Duplication & Inversions
