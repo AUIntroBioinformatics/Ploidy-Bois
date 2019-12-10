@@ -1,7 +1,7 @@
 # Step 3
 
 ## Intro
-After aligning the simulated genomes with varying single nucleotide polymorphisms (SNPs), GATK was using in order to look at where the simulation software would introduce these SNPs. VCF files were generated as an overview and were filtered using default conditions. 
+After aligning the simulated genomes with varying single nucleotide polymorphisms (SNPs),duplications and inversions,GATK was using in order to look at where the simulation software would introduce these variances. VCF files were generated as an overview and were filtered using default conditions. 
 
 Due to issues with the simulation software new tetraploid genomes were simulated that do (appear) to work with the 10X genomics Supernova pipeline for de novo assembly. Here we report initial results from several Supernova runs and discuss next steps.
 
