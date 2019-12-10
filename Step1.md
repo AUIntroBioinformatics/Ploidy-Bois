@@ -10,7 +10,7 @@ The variable we are interested in testing for our tetraploid genomes is coverage
 The variable tested for SNP variation in C. elegans simulated genome. Three genomes were simulated with 0 SNPs, three with 1 SNP per 50,000 bases, three with 1 SNP per 10,000 bases, and three with 1 SNP per 100 bases.  
 
 #### Duplications and Inversions (Fig 1C)
-
+One of the default parameters are set as duplications and inversions.The genome was simulated with 100 duplications and inversions. The other three genomes were resimulated with 0 times, 10 times and 200 times duplications and inversions in the fig 1C.
 ![Figure 1](figures/step1/Fig1.png)
 ### Figure 1. Experimental Schema
 
