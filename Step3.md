@@ -11,7 +11,7 @@ Due to considerable issues with the simulated tetraploid genomes for de novo sim
 ### SNPs 
 Post-alignment files were converted to .bam files, and underwent read group supplementation. Apparently, GATK refuses to tell the user that files will not run without included read groups and the simulated software apparently does not include these read groups. Therefore, random read groups were included to the SNP genomes using AddorReplaceReadGroups.jar in the Picard module. Then, GATK was used to build bam indexes, provide joint genotyping, extracted SNPs, and filtered through variant selection. 
 ### Duplications and Inversion 
-
+All .fastq files with four variances and three replications were analyzed with the Supernova and then were transformed to .bam files. However, Utilizing GATK to set up filter and select the varing duplications, it can't concluded that it's possible to find optimal result with resimulations.
 ## Results & Discussion
 Variants from SNP genome simulations were particularly difficult to discover, it doesn't seem like the simulation software and GATK are formatted to work together. Further analysis required. 
 
