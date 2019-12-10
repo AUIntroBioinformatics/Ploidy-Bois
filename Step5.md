@@ -45,11 +45,11 @@ Expected | 0 | 2005 | 10028 | 1002864
 
 ## Duplication & Inversions
 
-The genome resimulated with the variant "Duplications' varing in 0, 10, 200 and 500 uncovers an astounding amount of 
+The genome resimulated with the variant "Duplications' varing in 0, 10, 200 and 500 uncovers an astounding amount of The largest duplication had around 100o times over the no duplications. However it is still difficult to make an evaluation depending on the index of the duplication. The high level of duplication seems more likely to indicate some kind of enrichment bias.I would not recommend this approach for the duplication over 200 times.
 
 Duplications| 0  | 10  | 200  | 500
 --- | --- | --- | --- | ---
-Rep 1 | 1879 | 8753 | 63849 | 1042243  
-Rep 2 | 1378 | 5067 | 35566 | 1454092
-Rep 3 | 823  | 8673 | 28459 | 929582
-Exp.  | 1790 | 6976 | 32280 | 113049
+Rep 1 | 1879 | 8753 | 23849 | 1942243  
+Rep 2 | 1378 | 5067 | 25566 | 1454092
+Rep 3 | 823  | 3673 | 18459 | 929582
+Exp.  | 1790 | 6976 | 32280 | 1103049
