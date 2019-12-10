@@ -45,12 +45,11 @@ Expected | 0 | 2005 | 10028 | 1002864
 
 ## Duplication & Inversions
 
-The genome resimulated with the variant "Duplications and inversions' varing in 0, 10, 200 and 500 uncovers an astounding amount of variation between number of SNPs recovered from filtered .vcf files generated from GATK. Of the number of variants generated (0, 1/50,000, 1/10,000, and 1/100) the most consistency of variants were unserprisingly only present in the replicates of 0 SNPs generated. The 200 SNP samples were generated from the reference sequence (here we used WBcel235) directly with no input SNPs, so any variants included would be concerning. 
-
+The genome resimulated with the variant "Duplications' varing in 0, 10, 200 and 500 uncovers an astounding amount of 
 
 DI| 0  | 10  | 200  | 500
 --- | --- | --- | --- | ---
-Replicate 1 | 0 | 2030 | 92830 | 999304  
-Replicate 2 | 0 | 1503| 11029 | 1039403 
-Replicate 3 | 0 | 1750 | 10939 | 982940
-Expected | 0 | 2005 | 10028 | 1002864
+Replicate 1 |  |  |  |   
+Replicate 2 |  | |  |  
+Replicate 3 |  |  |  | 
+Expected |  |  |  | 1
