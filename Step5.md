@@ -47,9 +47,9 @@ Expected | 0 | 2005 | 10028 | 1002864
 
 The genome resimulated with the variant "Duplications' varing in 0, 10, 200 and 500 uncovers an astounding amount of 
 
-DI| 0  | 10  | 200  | 500
+Duplications| 0  | 10  | 200  | 500
 --- | --- | --- | --- | ---
-Replicate 1 |  |  |  |   
-Replicate 2 |  | |  |  
-Replicate 3 |  |  |  | 
-Expected |  |  |  | 1
+Rep 1 | 1879 | 8753 | 63849 | 1042243  
+Rep 2 | 1378 | 5067 | 35566 | 1454092
+Rep 3 | 823 | 8673 | 28459 | 929582
+Expected | 1790 | | 6976 | 32280 | 113049
