@@ -1,0 +1,39 @@
+Cd .cd4405697 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+4405697 + 0 mapped (100.00%:-nan%)
+4405697 + 0 paired in sequencing
+2202849 + 0 read1
+2202848 + 0 read2
+4405671 + 0 properly paired (100.00%:-nan%)
+4405697 + 0 with itself and mate mapped
+0 + 0 singletons (0.00%:-nan%)
+2 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+4545572 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+4545572 + 0 mapped (100.00%:-nan%)
+4545572 + 0 paired in sequencing
+2272786 + 0 read1
+2272786 + 0 read2
+4545550 + 0 properly paired (100.00%:-nan%)
+4545572 + 0 with itself and mate mapped
+0 + 0 singletons (0.00%:-nan%)
+2 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+4545575 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+4545575 + 0 mapped (100.00%:-nan%)
+4545575 + 0 paired in sequencing
+2272788 + 0 read1
+2272787 + 0 read2
+4545543 + 0 properly paired (100.00%:-nan%)
+4545575 + 0 with itself and mate mapped
+0 + 0 singletons (0.00%:-nan%)
+8 + 0 with mate mapped to a different chr
+1 + 0 with mate mapped to a different chr (mapQ>=5)
