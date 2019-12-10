@@ -11,9 +11,24 @@ Supernova requires formatted fastq files, such as those provided by the bcl2fast
 The BWA-MEM algorithm is able to align sequences ranging from 70bp-1Mbp, which is why we chose this for our linked reads. This algorithm performs a local alignment using maximal exact matches (MEMs). The reference genome (WBcel235) was indexed using bwa index prior to pair-end sequence alignment.  
 
 ### Duplications and Inversion 
+#### Table 1. BWA-MEM alignment of duplications and inversions.
+
+Sample | Mapped | Reads Mapped | Mapped to a dif. Chr.
+--- | --- | --- | ---
+0 DI rp1 | 100% | 4405697  | 2
+0 DI rp2 | 100% | 4545572 |  2
+0 DI rp3 | 100% | 4545575 |  8
+10 DI rp1 | 100% | 4615506 | 8
+200 DI rp2 | 100% | 1904714 | 4
+200 DI rp3 | 100% | 2709629 | 10
+500 DI rp1 | 100% | 1801802 | 8
+500 DI rp2 | 100% | 1220234 | 6
+500 DI rp3 | 100% | 2960926 | 0
+
+With the tool of BWA-MEM, Here listed 9 resimulated samples (with replication) approved by a mapping rate of 100%. It seems that the number of reads that matched to the chromosome ramdomly. 
 
 ## BWA
-#### Table 1. BWA-MEM alignment of single-nucleotide polymorphism linked-reads.
+#### Table 2. BWA-MEM alignment of single-nucleotide polymorphism linked-reads.
 
 Sample | Mapped | Reads Mapped | Mapped to a dif. Chr.
 --- | --- | --- | ---
