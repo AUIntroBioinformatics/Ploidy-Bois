@@ -37,7 +37,7 @@ Further analysis of SNP variants generated from genome simulation software uncov
 
 ![Figure 3](figures/group0.pdf)
 
-#Link to Figure 3, SNP analysis
+### Link to Figure 3, SNP analysis
 
 ## Duplication & Inversions
 
